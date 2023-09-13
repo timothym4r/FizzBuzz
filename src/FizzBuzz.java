@@ -4,10 +4,11 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
-
-        for (int i = 1; i < 100; i++) {
+        int i = 1;
+        while (i < 100) {
 
             doFizzbuzz(i);
+            i++;
         }
     }
 
@@ -35,5 +36,8 @@ class FizzBuzz {
             System.out.println(i);
 
         }
+    }
+
+    public static void doFizzBuzz(int i) {
     }
 }
